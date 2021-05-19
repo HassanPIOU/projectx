@@ -29,7 +29,12 @@ html{font-family:'Arial Black', sans-serif;-webkit-text-size-adjust:100%;-ms-tex
 .inverse{background: #2e5c76;color: #fff;box-shadow: 0 0 0 1px #2e5c76;}.default{background: #bbbbbb;color: #fff;box-shadow: 0 0 0 1px #bbbbbb;}
 .fabl-block{display:block;width:100%}.fabl-block+.fabl-block{margin-top:5px}  input[type=button].fabl-block,input[type=reset].fabl-block,input[type=submit].fabl-block{width:100%}
 .fabl:hover{text-decoration: none;background: none;color: #8c8c8c;;box-shadow: 0 0 0 2px #2e5c76;}.fabl:active{text-decoration: none;background: none;color: #8c8c8c;transform: scale(1.09);}
-
+.fabl-sm {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 10px;
+    line-height: 10px;
+}
 /*
 * Input
  */

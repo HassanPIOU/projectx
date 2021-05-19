@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route  component={Login} path="/login" />
           <Route  component={Signup} path="/signup" />
-          <PrivateRoute  component={Home} path="/"  />
+          <Route  component={Home} path="/"  />
 
         </Switch>
       </Router>

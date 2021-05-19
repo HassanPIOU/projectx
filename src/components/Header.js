@@ -14,6 +14,7 @@ const Header = (props) => {
                 <h1><Link to="/">{APP_NAME}</Link></h1>
 
                 <nav>
+                    <Link to="/">Home</Link>
                     <Link to="booking">Booking</Link>
                     <Link to="invoice">Invoice</Link>
                     <Link to="settings">Settings</Link>

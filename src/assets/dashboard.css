@@ -304,6 +304,12 @@
     width: 1000px;
 }
 
+.__extra_box{
+    width: 75%;
+    display: flex;
+}
+
+
 .box__header{
     display: flex;
     padding-bottom:  20px;
@@ -378,4 +384,73 @@
 
 .__trending{
 
+}
+.product__box__content{
+    display: flex;
+    width: 60%;
+}
+
+
+.__map__box{
+    position: relative;
+    margin-left: -100px !important;
+}
+
+
+.product__card{
+    width: 33%;
+}
+
+.card__box{
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.barber__star{
+    margin-top: 10px;
+
+}
+
+.barber__box{
+    padding: 10px;
+    margin: 10px 1px;
+}
+.barber__box img{
+    width: 100%;
+}
+
+.fixed__content{
+    height: 200px;
+    width: 100%;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.calendar__center{
+    margin-top: 100px;
+}
+
+.confirm__booking{
+    border-radius: 3px;
+    padding: 20px 10px 10px 10px;
+    -webkit-box-shadow: 0px 6px 5px -3px rgba(212,212,212,1);
+    -moz-box-shadow: 0px 6px 5px -3px rgba(212,212,212,1);
+    box-shadow: 0px 6px 5px -3px rgba(212,212,212,1);
+}
+
+.__pay__element{
+    cursor: pointer;
+}
+
+.barber_user_box{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+    box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+    border-radius: 3px;
+}
+
+.barber_user_box:hover{
+     transform: scale(1.01);
+    transition: all ease-in-out .5s;
 }
