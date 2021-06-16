@@ -89,7 +89,7 @@ const Login = ({}) => {
 
                               </div>
 
-                              <button type="submit"  className="btn btn-block btn-info" >
+                              <button type="submit"  className="btn btn-block gold" >
                                   {isFetching ? (
                                       <img src={loaderSpin} alt="" />
                                   ) : null}

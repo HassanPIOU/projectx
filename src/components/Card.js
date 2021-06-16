@@ -15,7 +15,7 @@ const Card = (props) => {
                         <em>Alfred barber Shop</em>
                     </p>
                     <p>26 Main Road, Middlesbrough,TS 1XX</p>
-                    <button className="fabl primary fabl-sm pull-right" onClick={props.detailshop}><i className="fa fa-arrow-right"></i></button>
+                    <button className="fabl gold fabl-sm pull-right" onClick={props.detailshop}><i className="fa fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>

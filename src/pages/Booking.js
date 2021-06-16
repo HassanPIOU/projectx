@@ -47,7 +47,7 @@ class Booking extends React.Component {
         if(currentStep ===2){
             return (
                 <button
-                    className="fabl primary"
+                    className="fabl gold"
                     type="button"
                     onClick={this._prev}>
                     Cancel
@@ -72,7 +72,7 @@ class Booking extends React.Component {
             if(currentStep <3){
                 return (
                     <button
-                        className="fabl primary"
+                        className="fabl gold ml-5"
                         type="button"
                         onClick={this._next}>
                         <span>{currentStep > 1 ? "Complete" :  "Continue" }</span>
@@ -86,29 +86,32 @@ class Booking extends React.Component {
 
     render(){
         return (
-            <div className="booking">
-                <h1 className="dash__title">Booking</h1>
-                <div className="box-content">
-                    <form onSubmit={this.handleSubmit}>
-                        <Step1
-                            currentStep={this.state.currentStep}
-                            handleChange={this.handleChange}
-                            time={this.state.time}
-                        />
-                        <Step2
-                            currentStep={this.state.currentStep}
-                            handleChange={this.handleChange}
-                            service={this.state.service}
-                        />
-                        <Step3
-                            currentStep={this.state.currentStep}
-                        />
+            <>
+             <div className="container">
+                 <div className="box-content">
+                  <div className="col-lg-12">
+                      <form onSubmit={this.handleSubmit}>
+                          <Step1
+                              currentStep={this.state.currentStep}
+                              handleChange={this.handleChange}
+                              time={this.state.time}
+                          />
+                          <Step2
+                              currentStep={this.state.currentStep}
+                              handleChange={this.handleChange}
+                              service={this.state.service}
+                          />
+                          <Step3
+                              currentStep={this.state.currentStep}
+                          />
 
-
-                        <p className="text-center">{this.previousButton()} {this.nextButton()}</p>
-                    </form>
-                </div>
-            </div>
+                          <p className="text-center d-flex">{this.previousButton()} {this.nextButton()}</p>
+                      </form>
+                  </div>
+                 </div>
+             </div>
+             
+            </>
         )
     }
 }

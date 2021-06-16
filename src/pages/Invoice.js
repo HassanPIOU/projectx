@@ -23,8 +23,7 @@ class  Invoice extends React.Component {
 
     render(){
         return (
-            <div className="invoice">
-                <h1 className="dash__title">Invoice</h1>
+            <div className="container">
                 <div className="box-content">
                     <form onSubmit={this.handleSubmit}>
 
@@ -41,7 +40,7 @@ class  Invoice extends React.Component {
 
                         <p className="text-center">
                             <button
-                                className="fabl primary"
+                                className="fabl gold"
                                 type="button"
                                 >
                                 <span>Proceed</span>

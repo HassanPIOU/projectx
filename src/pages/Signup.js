@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { useSelector, useDispatch } from 'react-redux';
@@ -10,7 +10,6 @@ import "../assets/css/bootstrap.min.css"
 import "../assets/css/style.css"
 import bg from "../assets/images/bg_1.jpg"
 import loaderSpin from "../assets/images/loader.svg"
-import {APP_NAME} from "../config/app";
 
 const Signup = () => {
   const dispatch = useDispatch();
@@ -111,7 +110,7 @@ const Signup = () => {
                               </div>
 
 
-                              <button type="submit"  className="btn btn-block btn-info" >
+                              <button type="submit"  className="btn btn-block gold" >
                                   {isFetching ? (
                                       <img src={loaderSpin} alt="" />
                                   ) : null}

@@ -32,7 +32,6 @@ h2 {
     height: 200px; } }
 
 .half .contents {
-  background: #fff;
   width: 30%;
 }
 
@@ -146,4 +145,28 @@ h2 {
 .circlespinner{
   width: 20px;
   height: 20px;
+}
+
+.gold{
+  background: #ca9b0f;
+  color: #fff;
+}
+
+.switcher__panel{
+  position: fixed;
+  right: 0;
+  top: 20%;
+  height: 50px;
+  width: 120px;
+  padding-top: 10px;
+  margin-right: -100px;
+  text-align: center;
+  background: #fff;
+  border-radius: 6px 0 0 6px;
+  box-shadow: 0 2px 6px #c6c8ca;
+  transition: all ease-in-out .5s;
+}
+
+.switcher__panel:hover{
+  margin-right: 0;
 }
