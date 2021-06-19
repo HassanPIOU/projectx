@@ -25,7 +25,7 @@ function App() {
         <Switch>
           <Route  component={Login} path="/login" />
           <Route  component={Signup} path="/signup" />
-          <Route  component={Home} path="/"  />
+          <PrivateRoute  component={Home} path="/"  />
         </Switch>
       </Router>
       </ThemeProvider>

@@ -30,14 +30,14 @@ const Home = (props) => {
       document.title = APP_NAME+" | Shop"
     if (isError) {
       dispatch(clearState());
-    //history.push('/login');
+    history.push('/login');
     }
   }, [isError]);
 
   const onLogOut = () => {
     localStorage.removeItem('token');
 
-//  history.push('/login');
+  history.push('/login');
   };
 
 
